@@ -11,11 +11,6 @@ function Routes($stateProvider,$urlRouterProvider){
             url: '/',
             templateUrl: 'views/landing.html',
             controller:'LandingController as landing'
-        })
-        .state('todos', {
-            url: '/todos',
-            templateUrl: 'views/todos.html',
-            controller:'TodosController as todos'
         });
 }
 

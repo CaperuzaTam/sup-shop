@@ -34,5 +34,9 @@
     "uglifyify": "^3.0.1",
     "vinyl-source-stream": "^1.0.0",
     "vinyl-transform": "^1.0.0"
+  },
+  "dependencies": {
+    "angularfire": "^1.1.2",
+    "firebase": "^2.2.7"
   }
 }
